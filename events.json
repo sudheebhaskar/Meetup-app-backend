@@ -1,0 +1,38 @@
+[
+{
+  "title": "Tech Conference",
+  "dateAndTime": "Thu Jul 13 2023, 7:00:00 AM IST",
+  "eventImage": "https://a.storyblok.com/f/188325/1920x1280/41e681c422/alexandre-pellaes-6vajp0pscx0-unsplash-1-1.jpg",
+  "eventType": "Online Event",
+  "eventVenue": "Orion Mall, Bengaluru",
+  "paidFee": 2500,
+  "speakers": ["Mark Zuckerberg", "Satya Nadella"],
+  "speakerDetails": ["CEO, Meta", "CEO, Microsoft"],
+  "hostedBy": "TechCrunch",
+  "eventDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+},
+{
+  "title": "Design Workshop",
+  "dateAndTime": "Mon Jul 10 2023, 2:00:00 PM IST ",
+  "eventImage": "https://informationage-production.s3.amazonaws.com/uploads/2022/10/tech-events-diary.jpg",
+  "eventType": "Offline Event",
+  "eventVenue": "Microsoft Office, Near UB City, Bengaluru",
+  "paidFee": 5500,
+  "speakers": ["Sundar Pichai", "Elon Musk"],
+  "speakerDetails": ["CEO, Alphabet", "CEO, Tesla"],
+  "hostedBy": "ReactConf",
+  "eventDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." 
+},  
+  {
+      "title": "Marketing Seminar",
+      "dateAndTime": "Tue Aug 15 2023, 2:00:00 PM IST ",
+      "eventImage": "https://varioproductions.com/wp-content/uploads/2020/02/5-Event-Tech-Trends-to-Watch-Out-For-in-2020-scaled-1-1024x683.jpg",
+      "eventType": "Offline Event",
+      "eventVenue": "Marketing City, 789 Marketing Venue, City",
+      "paidFee": 3000,
+      "speakers": ["Sam Altman", "Tim Cook"],
+      "speakerDetails": ["CEO, OpenAI", "CEO, Apple"],
+      "hostedBy": "The Verge",
+      "eventDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }
+]
