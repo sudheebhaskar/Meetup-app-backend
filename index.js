@@ -45,7 +45,7 @@ function seedData(){
   
 }
 
-seedData()
+//seedData()
 
 async function readAllEvents(){
   try{
