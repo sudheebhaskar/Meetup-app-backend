@@ -14,6 +14,10 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
+require('dotenv').config();
+
+app.use(cors());
+
 app.use(cors(corsOptions));
 
 const jsonData = fs.readFileSync('events.json', 'utf8')
@@ -75,4 +79,7 @@ const PORT = 3000
 app.listen(PORT, () => {
   console.log(`Server is running on this port: ${PORT}`)
 })
+
+
+
 
