@@ -60,31 +60,31 @@ async function readAllEvents(){
   }
 }
 
-app.get("/events", async(req, res) => {
-  try {
-    const events = await Event.find();
-    if(events.length != 0) {
-      res.json(events);
-    } else {
-      res.status(404).json({error: 'No events found'});
-    }
-  } catch(error) {
-    res.status(500).json({error: "Failed to fetch events"});
-  }
-});
-
-// app.get("/events", async(req,res) =>{
-//   try{
-//     const events = await readAllEvents()
-//     if(events.length != 0){
-//       res.json(events)
+// app.get("/events", async(req, res) => {
+//   try {
+//     const events = await Event.find();
+//     if(events.length != 0) {
+//       res.json(events);
 //     } else {
-//       res.status(500).json({error: 'No events found'})
+//       res.status(404).json({error: 'No events found'});
 //     }
-//   } catch(error){
-//     res.status(500).json({error: "Failed to fetch events"})
+//   } catch(error) {
+//     res.status(500).json({error: "Failed to fetch events"});
 //   }
-// })
+// });
+
+app.get("/events", async(req,res) =>{
+  try{
+    const events = await readAllEvents()
+    if(events.length != 0){
+      res.json(events)
+    } else {
+      res.status(500).json({error: 'No events found'})
+    }
+  } catch(error){
+    res.status(500).json({error: "Failed to fetch events"})
+  }
+})
 
 
 
