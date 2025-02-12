@@ -5,7 +5,7 @@ const { initializeDatabase } = require("./db/db.connect");
 const fs = require('fs')
 const Event = require("./models/events.models")
 app.use(express.json())
-initializeDatabase();
+//initializeDatabase();
 
 const cors = require("cors");
 const corsOptions = {
